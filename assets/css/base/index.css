@@ -139,12 +139,6 @@ table {
   box-sizing: border-box;
 }
 
-:root {
-  --text-color: #1a162e;
-  --icon-color: brightness(0) saturate(100%) invert(7%) sepia(40%)
-    saturate(1787%) hue-rotate(222deg) brightness(86%) contrast(94%);
-}
-
 html {
   font-size: 62.5%;
 }
