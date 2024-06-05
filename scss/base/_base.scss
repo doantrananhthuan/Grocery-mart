@@ -12,6 +12,7 @@ body {
   font-size: 1.6rem;
   font-family: Gordita, sans-serif;
   color: var(--text-color);
+  background: var(--body-bg);
 }
 
 a {
@@ -32,6 +33,7 @@ select {
   font-family: inherit;
   color: inherit;
 }
+
 .icon {
   filter: var(--icon-color);
 }
