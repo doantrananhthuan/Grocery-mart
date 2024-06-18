@@ -1,0 +1,10 @@
+{
+  "prettier.printWidth": 120,
+  "liveServer.settings.port": 5501,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.tabCompletion": "off",
+  "editor.snippets.codeActions.enabled": false,
+  "editor.codeActionsOnSave": {},
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": false
+}
