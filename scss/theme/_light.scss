@@ -2,20 +2,20 @@
 
 html {
   --text-color: #1a162e;
-  --icon-color: brightness(0) saturate(100%) invert(7%) sepia(40%)
-    saturate(1787%) hue-rotate(222deg) brightness(86%) contrast(94%);
+  --icon-color: brightness(0) saturate(100%) invert(7%) sepia(40%) saturate(1787%) hue-rotate(222deg) brightness(86%)
+    contrast(94%);
   --body-bg: #f6f6f6;
   --header-bg-color: #eee;
   --top-act-group-bg-color: #fff;
   --top-act-group-shadow: rgba(237, 237, 246, 0.2);
   --top-act-group-separate: #ededf6;
 
-  @include abstracts.breakpoint(lg) {
+  @include abstracts.screen(lg) {
     --header-bg-color: #fff;
     --header-shadow-color: rgba(237, 237, 246, 0.2);
   }
 
-  @include abstracts.breakpoint(lg) {
+  @include abstracts.screen(lg) {
     --header-bg-color: #fff;
     --header-shadow-color: rgba(237, 237, 246, 0.2);
   }
@@ -26,6 +26,15 @@ html {
   --top-menu-border-color: #d2d1d6;
 
   // Sidebar
-    --sidebar-bg: #fff;
-    --sidebar-shadow: rgba(200, 200, 200, 0.4);
+  --sidebar-bg: #fff;
+  --sidebar-shadow: rgba(200, 200, 200, 0.4);
+
+  // Category item
+  --cate-item-bg: #eee;
+  --cate-item-thumb-bg: #fff;
+  --cate-item-title-color: #000;
+
+    @include abstracts.screen(md)  {
+        --cate-item-bg: #fff;
+    }
 }
